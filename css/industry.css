@@ -1,0 +1,21 @@
+.industry {
+    margin-top: 100px;
+}
+/* .industry-dhz {
+    display: flex;
+    flex-wrap: wrap;
+} */
+.industry-dhz li{
+margin: 30px auto;
+}
+/* .industry-dhz li img {
+    width: 100%;
+    height: 100%;
+} */
+.industry-dhz li p{
+    color: #444;
+    font-size: 18px;
+    text-align: center;  
+     padding: 30px 20px;   
+
+}

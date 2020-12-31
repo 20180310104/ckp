@@ -1,0 +1,19 @@
+.optimize {
+    margin-top: 50px;
+}
+/* .optimize .optimize-dhz{
+    display: flex;
+    justify-content: space-between;
+} */
+.optimize .optimize-dhz .optimize-zhz{
+display: flex;
+}
+.optimize .optimize-dhz img {
+    display: block;
+}
+.optimize .optimize-dhz div p {
+    font-size: 16px;
+     color: #666;
+     margin-left: 10px;
+    margin-top: 20px;
+}

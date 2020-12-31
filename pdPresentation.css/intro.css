@@ -1,0 +1,51 @@
+.intro{
+    margin-top: 50px;
+}
+ .intro-one {
+    font-size: 32px;
+    text-align: center;
+    color: #333;
+}
+
+.intro-xhx {
+    width: 100px;
+    height: 4px;
+    background-color: #468eff;
+    margin: 35px auto;
+
+}
+
+.intro-wb {
+    font-size: 16px;
+    color: #909090;
+    padding: 50px 170px;
+    line-height: 30px;
+    box-shadow: 0px 0px 5px 0px #eaeaea;
+    margin-bottom: 150px;
+}
+.intro-details-left{
+    padding-right: 30px;
+    padding: 0 100px 0 0;
+}
+.intro-details-left .intro-details-top{
+    font-size: 24px;
+}
+.intro-details-left .intro-details-mid{
+    font-size: 16px;
+    color: #333;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #efefef;
+}
+.intro-details-left .intro-details-bot{
+    font-size: 16px;
+    color: #c3c3c3;
+    margin-top: 25px;
+     padding: 0 100px 0 0;
+     line-height: 30px;
+}
+.intro-details-dtop{
+    margin-bottom: 70px;
+    padding-right: 30px;
+    overflow: hidden;
+}

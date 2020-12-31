@@ -1,0 +1,29 @@
+.container-imgp  img{
+    width: 100%;
+    /* height: 100%; */
+}
+.container-imgp .container{
+    position: relative;
+}
+.container-imgp .container-wzone{
+    position: absolute;
+    top: -198px;
+    left: 42%;
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+}
+.container-imgp .container-wztow {
+    top: -116px;
+    left: 37%;
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+}
+@media screen and (max-width:768px) {
+    .container-imgp.container-img img{
+        display: none;
+    }
+    
+}

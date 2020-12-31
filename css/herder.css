@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.herder .nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.herder .nav img {
+    left: 0;
+}
+
+.herder {
+    background-color: rgb(70, 142, 255,.3);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    /*Z-INDEX: 999表示某个元素的显示在前面的优先级参数为999 Z-index 仅能在定位元素上有效*/
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-subnav {
+    padding-left: 0;
+}
+
+.nav-subnav ul {
+    display: flex;
+}
+
+.nav-subnav ul li {
+    margin: 22px;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.nav-subnav ul li .a {
+    border-bottom: 3px solid #fff;
+}
+
+.nav-subnav-right .nav-subnav-login {
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+   .herder{
+        display: none;
+    }
+
+     /* .nav-subnav ul  {
+     display: flex !important;
+     flex-direction: column!important;
+           text-align: center;
+     }
+         .nav-subnav ul li{ 
+       
+         width: 100%;
+          padding: 0 130px 0 100px;
+          border-bottom: 1px solid #fff;
+      } 
+      .nav-mun{
+        border: 1px solid #fff;
+      }
+      .nav-hb{
+        position: absolute;
+        width: 5px;
+        height: 2px;
+        overflow: hidden;
+      } */
+}

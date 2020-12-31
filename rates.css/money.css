@@ -1,0 +1,109 @@
+.container-img .money .intro-one{
+    position: absolute;
+    top: -346px;
+    left: 9%;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700px;
+}
+.money .money-midbox {
+    width: 20%;
+    border: 1px solid #468eff;
+    border-top: 3px solid #468eff;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+/* .money .money-minbox {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.money .money-midbox span {
+    font-size: 16px;
+    color: #468eff;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.money .money-midbox img {
+    display: inline-block;
+    padding: 0 20px 0 19px;
+}
+
+.money .money-midbox p {
+    font-size: 14px;
+    margin-top: 36px;
+    line-height: 24px;
+    color: #666;
+}
+
+.money .money-midbox a {
+    display: block;
+    width: 130px;
+    text-align: center;
+    margin: 10px auto;
+    margin-top: 40px;
+    padding: 10px;
+    color: #fff;
+    background-color: #468eff
+}
+
+.money-minbox-xhz {
+    width: 100%;
+    box-shadow: 0px 6px 10px #ececec;
+    position: relative;
+}
+.money-minbox-xhz img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.money-minbox-xhz-wz {
+    color: #fff;
+    font-weight: 700;
+    background: url(../images/5/1.png) no-repeat 100%;
+    left: 66px;
+    top: 10px;
+    text-align: center;
+    line-height: 60px;
+} 
+.money-minbox-xhz-q{
+
+    color: #468eff;
+    font-size: 16px;
+    text-align: center;
+    padding: 64px 0 64px 0;
+    line-height: 40px;
+}
+.money-minbox-xhz-qa{
+font-weight: 700;
+font-size:30px ;
+}
+.money-minbox-xhz-footer{
+    text-align: center;
+    
+}
+.money-minbox-xhz-footer span {
+    color: #468eff;
+}
+.money-minbox-xhz-footer .money-footer {
+    color: #d0d0d0;
+}
+.money {
+    margin-bottom: 200px;
+}
+@media screen and (max-width:768px){
+    .money .money-midbox {
+        width: 100% !important;
+        padding: 20px;
+        margin-right: 20px;
+    }
+    .money-minbox-xhz {
+        width: 74% !important;
+        margin: 50px 0 0 50px!important;
+    }

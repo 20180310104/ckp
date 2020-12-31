@@ -1,0 +1,111 @@
+.container {
+    position: relative;
+}
+
+.xz {
+    margin-bottom: 50px;
+}
+
+.container-wzo {
+    position: absolute;
+    top: -222px;
+    left: 32%;
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+}
+
+.download {
+    margin-top: 50px;
+
+}
+
+.xz {
+    background: url(../images/6/5.png)no-repeat 100%;
+}
+
+.download-cd {
+    font-size: 50px;
+    color: #333;
+}
+
+.download-cx {
+    font-size: 21px;
+    color: #ccc;
+    margin: 32px 0 0 153px;
+}
+
+.download-pic {
+    padding: 100px 0 200px 0;
+}
+
+.download-pic img {
+    display: inline-block;
+    padding-right: 85px;
+}
+
+.download-lj {
+    margin-top: 10px;
+}
+
+.download-lj a {
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #468eff;
+    border-radius: 5px;
+    color: #468eff;
+    padding: 10px 30px;
+    margin-right: 50px;
+}
+
+.download-wb span {
+    display: inline-block;
+    font-size: 12px;
+    color: #bdbdbd;
+    margin-top: 10px;
+    padding: 0 76px 0 30px;
+}
+
+@media screen and (max-width:768px) {
+    .download-cd {
+        font-size: 20px !important;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .download-cx {
+        margin: 20px 0 0 87px !important;
+        font-size: 14px !important;
+
+    }
+
+    .xz .download .download-pic ul li img {
+        display: none;
+    }
+
+    .download-wb {
+        position: relative;
+    }
+
+    .download-pic {
+        margin-left: 30px;
+    }
+
+    .download-pic .download-wb span:nth-child(1) {
+        position: absolute;
+        top: -145px !important;
+        right: -56px !important;
+    }
+
+    .download-pic .download-wb span:nth-child(2) {
+        position: absolute;
+        top: -96px !important;
+        right: -56px !important;
+    }
+
+    .download-pic .download-wb span:nth-child(3) {
+        position: absolute;
+        top: -48px !important;
+        right: -56px !important;
+    }
+}

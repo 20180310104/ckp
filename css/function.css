@@ -1,0 +1,53 @@
+.function {
+    padding-top: 120px;
+
+}
+
+.function-content p:nth-child(1) {
+    font-size: 32px;
+    text-align: center;
+}
+
+.function-content .function-content-wb {
+    font-size: 15px;
+    color: #adadad;
+    text-align: center;
+}
+
+
+.function-hz {
+    margin-top: 50px;
+    padding: 30px 20px;
+
+
+}
+   
+
+.function-hz .function-xxhz {
+    border: 1px solid #eaeaea;
+}
+
+.function-hz img {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.function-hz li:nth-child(1) {
+    font-size: 20px;
+
+}
+
+.function-xxhz{
+    padding: 30px 20px;
+}
+.function-hz li:nth-child(2) {
+    font-size: 14px;
+    color: #adadad;
+    margin-top: 15px;
+}
+@media screen and (max-width:768px){
+    /* .function{
+    margin-left: 100px;
+    } */
+
+}

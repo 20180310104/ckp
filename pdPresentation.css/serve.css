@@ -1,0 +1,64 @@
+.serve{
+    /* width: 1180px;
+    height: 300px; */
+    margin-bottom: 200px;
+}
+
+.head-fw{
+    padding: 160px 0 100px 0;
+    margin-bottom: 120px;
+}
+.footer-fw .footer-fw-img {
+    width: 140px;
+    height: 110px;
+}
+.footer-fw li{
+    position: relative;
+}
+.footer-fw li .footer-fw-img{
+    position: absolute;
+}
+.footer-fw li .footer-fw-p{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.footer-fw-pica {
+    left: 132px;
+    top:-123px;
+}
+.footer-fw-picb {
+    right: 620px;
+    top:-161px;
+}
+.footer-fw-picc {
+    right: 378px;
+    top:-117px;
+}
+.footer-fw-picd {
+    right: 129px;
+    top:-163px;
+}
+.footer-fw-pice{
+    left: 162px;
+    top:-17px;
+}
+.footer-fw-picf{
+    left:408px;
+    top:-57px;
+}
+.footer-fw-picg{
+    left:653px;
+    top:-10px;
+}
+.footer-fw-pich{
+    right: 160px;
+    top:-55px;
+}
+@media screen and (max-width:768px) {
+    .serve {
+        display: none;
+    } 
+
+
+}

@@ -1,0 +1,33 @@
+
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.pic{
+      background: url(../images/1/3_img.png) no-repeat 100%;
+}
+
+.pic .container h2 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 170px;
+    margin-top: 300px;
+  line-height: 80px;
+}
+.pic .container p{
+    color: #e2e2e2;
+    margin: 50px 0 300px 170px;
+}
+@media screen and (max-width:768px) {
+    .container .pic-wz { 
+        font-size: 22px !important;
+        line-height: 40px  !important;
+         margin-left: 60px !important;
+         margin-top: 368px !important;
+    }
+    .pic .container p{
+        margin: 5px 0 300px 60px !important;
+    }
+}

@@ -1,0 +1,36 @@
+.service {
+    position: fixed;
+    top: 274px;
+    right: 20px;
+    background-color: #74aaff;
+    text-align: center;
+
+}
+.servic a{
+     display: block;
+}
+
+.service-box {
+    width: 30px;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding-left: 29px;
+}
+
+.service img {
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+ .service-ipc {
+    position: fixed;
+    top: 485px;
+    right: 28px;
+}

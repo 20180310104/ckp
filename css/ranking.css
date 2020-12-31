@@ -1,0 +1,42 @@
+.ranking {
+    margin-top: 160px;
+}
+
+/* .ranking ul {
+    display: flex;
+    justify-content: space-between;
+} */
+.ranking-box  li{
+    position: relative;
+    /* margin: 0 15px;
+    padding: 0 30px; */
+}
+.ranking-box li p:nth-child(1){
+    font-size: 40px;
+    color: #2d7aff;
+    text-align: center;
+}
+.ranking-box li p:nth-child(2){
+    font-size: 14px;
+    color: #adadad;
+    text-align: center;
+ 
+}
+.ranking-box li p:nth-child(3){
+    font-size: 16px;
+    color: #666;   
+    margin-top: 10px;
+    text-align: center;
+}
+.ranking-boxmin{
+    padding: 0 30px;
+}
+.ranking-box span{
+    display: block;
+    width: 1px;
+    background-color: #eeeff3;
+    height: 90px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
